@@ -28,6 +28,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Build and Push Docker Image
-      run: docker build -t java-docker@1.0 .
+    - name: Build Docker Image
+      run: docker build -t java-app .
+
          

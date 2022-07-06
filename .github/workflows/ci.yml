@@ -31,7 +31,7 @@ jobs:
     - name: Build Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: kodurindocker/java-docker-gha:1.0
+        image: kodurindocker/java-docker-gha
         registry: docker.io
         tags: v1, latest
         dockerfile: Dockerfile

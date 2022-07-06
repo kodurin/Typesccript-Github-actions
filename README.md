@@ -1,2 +1,1 @@
-# Typesccript-Github-actions
-# URL:
+# gh-action-js-marathon

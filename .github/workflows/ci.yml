@@ -30,7 +30,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-         docker build -t java-docker@2.0 .
+         docker build --tag java-docker@2.0 .
          docker ps -a
 
          

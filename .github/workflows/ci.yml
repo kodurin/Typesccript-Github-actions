@@ -32,4 +32,5 @@ jobs:
       run: |
          docker build -t java-docker@2.0 .
          docker ps -a
+
          

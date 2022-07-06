@@ -1,1 +1,1 @@
-# Typesccript-Github-actions
+# gh-action-js-marathon
